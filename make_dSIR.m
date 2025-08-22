@@ -53,5 +53,5 @@ dsir(~mask) = -1;
 lsir(~mask) = -Inf;
 
 %% convert to integer
-dsir = gather(int16(10000 * dsir));
-lsir = gather(int16(10000 * lsir));
+dsir = int16(10000 * dsir);
+lsir = int16(10000 * lsir);
